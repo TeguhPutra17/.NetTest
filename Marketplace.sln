@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CategoryLoadData", "Marketplace\CategoryLoadData.csproj", "{B9FF2DAC-9458-4ABE-9EAD-6851F9958716}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Category", "Category", "{756A1D71-C311-46E0-BBD0-F96F1512B26A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryButton", "CategoryButton\CategoryButton.csproj", "{0F5C4EC1-D386-4F4E-989E-6D7A510BD4C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9FF2DAC-9458-4ABE-9EAD-6851F9958716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FF2DAC-9458-4ABE-9EAD-6851F9958716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FF2DAC-9458-4ABE-9EAD-6851F9958716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FF2DAC-9458-4ABE-9EAD-6851F9958716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5C4EC1-D386-4F4E-989E-6D7A510BD4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5C4EC1-D386-4F4E-989E-6D7A510BD4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5C4EC1-D386-4F4E-989E-6D7A510BD4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5C4EC1-D386-4F4E-989E-6D7A510BD4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9FF2DAC-9458-4ABE-9EAD-6851F9958716} = {756A1D71-C311-46E0-BBD0-F96F1512B26A}
+		{0F5C4EC1-D386-4F4E-989E-6D7A510BD4C2} = {756A1D71-C311-46E0-BBD0-F96F1512B26A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D957DE21-D0AE-474C-B920-EC25E6EEF212}
+	EndGlobalSection
+EndGlobal
